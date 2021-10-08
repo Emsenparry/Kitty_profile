@@ -1,0 +1,291 @@
+body {
+background-color: #EAE5C9;
+color: #6CC6CB;
+font-family: arial;
+}
+
+.header {
+background-color: #6CC6CB;
+color: white;
+text-align: center;
+height: 60px;
+}
+
+.header ul li {
+display: inline-block;
+margin: 50px;
+font-size: 35px;
+position: relative;
+top: -42px;
+transition: 0.5s;
+}
+
+a {
+text-decoration: none;
+color: #EAE5C9;
+}
+
+
+li a:hover {
+color: white;
+}
+
+.header ul li:hover{transform: scale(1.3);}
+
+
+#top {
+text-align: center;
+}
+
+#top p {
+position: relative;
+top: -15px;
+}
+
+#top p {
+font-size: 20px;
+color: white;
+}
+
+#top img {
+position: relative;
+top: -20px;
+}
+
+
+content h1 {
+text-align: center;
+color:#6CC6CB
+}
+
+.container {
+display: flex;
+flex-direction:row;
+flex-wrap: nowrap;
+justify-content:space-evenly;
+color: white;
+}        
+
+.container .item img:hover{transform:scale(1.1);
+box-shadow: -5px 5px 5px rgba(0,0,0,30%);}
+
+.item img {
+width: 350px;
+height: 350px;
+transition: 0.3s;
+border-radius: 45px;
+}
+
+.content, h2 {
+text-align: center;
+}
+
+#text {
+text-align: center;
+color: #6CC6CB;
+}
+
+#text h2 {
+font-size: 40px;
+
+}
+#text b {
+position: relative;
+top: -20px;
+}
+
+input[type=text], input[type=password] {
+width: 40%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: block;
+border: none;
+}
+
+button {
+padding: 14px 20px;
+margin: 8px 0;
+cursor: pointer;
+width: 10%;
+opacity: 0,9;
+}
+
+#icon {
+display: inline-block;
+position: absolute;
+right: -1330px;
+bottom: -965px;
+}
+
+footer {
+background-color:#6CC6CB;
+color: #eae5c9;
+padding: 20px;
+}
+
+content {
+position: relative;
+}
+
+
+/*NEW WEBSITE - FERRETS*/
+
+
+#header-two {
+background-color:#6CC6CB;
+padding: 2.1px;
+}
+
+#header-two a {
+position: relative;
+right: -10px;
+}
+
+#header-two li {
+display: inline-block;
+font-size: 30px;
+transition: 0.5s;
+}
+
+#header-two li a:hover {
+color: white;
+
+}
+
+#header-two li:hover {
+transform: scale(1.3);
+}
+
+h1 {
+text-align: center;
+}
+
+.container-two {
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content:space-evenly;
+color: white;  
+}
+
+.container-two img {
+filter: grayscale(100%);
+transition: 0.6s; 
+border-radius: 45px; 
+margin: 25px;
+}
+    
+.container-two img:hover{
+filter: grayscale(0);
+transform: scale(1.1);
+box-shadow: -5px 5px 5px rgba(0,0,0,30%);
+}
+
+.container-two h2 {
+background-color: #6CC6CB;
+width: 100px;
+padding: 10px;
+margin: auto;
+}
+
+.paragraph {
+background-color: white;
+text-align: center;
+width: 800px;
+padding: 50px;
+border: 20px solid #6CC6CB;
+margin: auto;
+position: relative;
+bottom: -50px;
+}
+
+.paragraph h5 {
+font-size: 30px;
+}
+
+
+.paragraph p {
+font-size: 1rem;
+color: black;
+text-align: center;
+text-justify: none;
+line-height: 25px;
+}
+    
+/*NEW WEBSITE - ABOUT US*/
+
+.container-three {
+position: relative;
+bottom: -20px;
+background-image:url(https://i.pinimg.com/originals/58/db/b9/58dbb9f2a3e6739fd7e71fd9b961e4c0.jpg);
+background-size: cover;
+height: 600px;
+width: 600px;
+}
+
+.info {
+position: absolute;
+top: 15%;
+left: 4%;
+width: 90%;
+letter-spacing: 0.6px;
+text-align: center;
+color: white;
+}
+
+.overlay {
+background: #0000008a;
+height: 100%;
+}
+
+h3 {
+font-size: 50px;
+color: #EAE5C9;
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/*NEW WEBSITE - CONTACT*/
+
+.contact-info {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 90%;
+max-width: 1500px;
+padding: 0 20px;
+}
+
+
+.card {
+background: #6CC6CB;
+padding: 0 20px;
+margin: 0 10px;
+width: 100%;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:white;
+position: relative;
+top: 150px;
+left: 50px;
+}
+
+
+.card-icon {
+font-size: 28px;
+transition: 0.3s linear;
+}
+
+.card:hover .card-icon {
+transform: scale(1.6);
+}
